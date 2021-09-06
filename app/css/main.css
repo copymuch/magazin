@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner, .header-nav, .header-content {
+  display: flex;
+}
+
+.header-content {
+  flex: 0 1 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-content ul li {
+  padding-right: 20px;
+}
+.header-content ul a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.header-content ul a:hover {
+  color: #4fbfa5;
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 35%;
+}
+
+.promo {
+  background-color: #4fbfa5;
+}
+
+.promo-inner {
+  display: flex;
+}
+.promo-inner img {
+  width: 50%;
+}
+
+.promo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  color: #fff;
+}
+.promo-text h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 32px;
+}
+.promo-text button {
+  background-color: #4fbfa5;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 15px;
+  transition: all 0.5s ease;
+  font-weight: 900;
+}
+.promo-text button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.promo-text .nike {
+  color: #000;
+  font-weight: 800;
+}
+
+.promo-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter {
+  padding: 20px 0 20px 90px;
+}
+
+.filter-inner {
+  width: 100%;
+  display: flex;
+}
+
+.filter-nav, .filter nav {
+  display: flex;
+  flex: 0 1 100%;
+}
+.filter-nav ul, .filter nav ul {
+  display: flex;
+}
+.filter-nav ul button, .filter nav ul button {
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.filter-filter {
+  display: flex;
+  justify-content: flex-end;
+}
+.filter-filter select {
+  border: none;
+  font-size: 18px;
+}
+
+.snickers {
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.snickers-bar ul {
+  display: flex;
+  text-align: center;
+  flex: 0 1 100%;
+}
+.snickers-bar li {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  margin: 20px 20px 0 0;
+  justify-content: center;
+  height: 500px;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+.snickers-bar li p {
+  padding: 0;
+  margin: 0;
+}
+.snickers-bar li img {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  right: 0;
+  background-color: #fff;
+  border-left: 2px solid #000;
+}
+aside h2 {
+  text-align: center;
+}
+aside li {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+}
